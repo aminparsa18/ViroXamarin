@@ -10,7 +10,7 @@
 	<application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
     <meta-data
       android:name="com.viromedia.API_KEY"
-      android:value="EDE33261-B5FD-4CA5-A9E6-D042039E817C" />
+      android:value="Your-api-key-here" />
     <meta-data android:name="com.google.ar.core" android:value="optional" />
   </application>
 </manifest>
