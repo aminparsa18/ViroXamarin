@@ -13,17 +13,6 @@ Android, ARCore, Google Daydream, Samsung GearVR, Google Cardboard VR
 
 To report bugs/issues with the Viro platform, please file new issues on this repository.
 
-### Instructions for running sample code:
-
-1. Follow the prerequisite directions on our [Quick start guide](https://virocore.viromedia.com/docs/getting-started) to setup dependencies for trying these sample projects with the Viro Media App.
-2. Clone the repo into your workspace with git: `git clone https://github.com/viromedia/virocore.git`.
-3. Choose the code sample you wish to deploy, and open the root directory in Android studio. 
-4. Edit AndroidManifest.xml, and replace "API_KEY_HERE" with the key emailed to you with signup.
-5. Ensure that [Instant Run](https://developer.android.com/studio/run/index.html#instant-run) is disabled.
-6. (Optional) Clean and gradle sync.
-7. Build and deploy.
-8. You should now be in the application! Enjoy!
-
 ### More Information
 
 Viro Media Website: https://viromedia.com/
@@ -38,34 +27,39 @@ Check out our [blog](https://blog.viromedia.com/) for tutorials, news, and updat
 
 ## Sample Code
 
-### [AR Hellow World Android](https://github.com/viromedia/virocore/blob/master/ARHelloWorldAndroid/app/src/main/java/com/example/virosample/ViroActivity.java)
+### [AR Hellow World Android](https://github.com/xracer007/ViroXamarin/tree/master/ARHelloWorld)
 
-<a href="https://github.com/viromedia/virocore/blob/master/ARHelloWorldAndroid/app/src/main/java/com/example/virosample/ViroActivity.java">
+<a href="https://github.com/xracer007/ViroXamarin/tree/master/ARHelloWorld">
 <img src="https://raw.githubusercontent.com/viromedia/virocore/master/ARHelloWorldAndroid/ViroARPlanesDemoActivity.gif">
 </a>
 
-### [AR Placing Objects](https://github.com/viromedia/virocore/blob/master/ARPlacingObjects/app/src/main/java/com/example/virosample/ViroActivity.java)
+### [AR Placing Objectshttps://github.com/xracer007/ViroXamarin/tree/master/ARPlacingObjects)
 
-<a href="https://github.com/viromedia/virocore/blob/master/ARPlacingObjects/app/src/main/java/com/example/virosample/ViroActivity.java">
+<a href="https://github.com/xracer007/ViroXamarin/tree/master/ARPlacingObjects">
 <img src="https://raw.githubusercontent.com/viromedia/virocore/master/ARPlacingObjects/ViroARHitTestDemoActivity.gif">
 </a>
 
-### [AR Retail](https://github.com/viromedia/virocore/tree/master/ARRetail)
+### [AR Retail](https://github.com/xracer007/ViroXamarin/tree/master/ARRetail)
 
-<a href="https://github.com/viromedia/virocore/tree/master/ARRetail">
+<a href="https://github.com/xracer007/ViroXamarin/tree/master/ARRetail">
 <img src="https://raw.githubusercontent.com/viromedia/virocore/master/ARRetail/ARRetailActivity.gif">
 </a>
 
 [Link to AR Retail tutorial](https://blog.viromedia.com/tutorial-how-to-build-amazons-ar-view-for-arcore-android-using-virocore-and-java-ba1cc3ff2d87)
 
-### [AR Tesla](https://github.com/viromedia/virocore/tree/master/ARTesla)
+### [AR Tesla](https://github.com/xracer007/ViroXamarin/tree/master/ARTesla)
 
-<a href="https://github.com/viromedia/virocore/blob/master/ARTesla/app/src/main/java/com/example/virosample/ViroActivityAR.java">
+<a href="https://github.com/xracer007/ViroXamarin/tree/master/ARTesla">
 <img src="https://github.com/viromedia/virocore/blob/master/ARTesla/viro_car_marker_demo.gif">
 </a>
 
-### [AR Black Panther](https://github.com/viromedia/virocore/tree/master/ARBlackPanther)
+### [AR Black Panther](https://github.com/xracer007/ViroXamarin/tree/master/ARBlackPanther)
 
-<a href="https://github.com/viromedia/virocore/blob/master/ARBlackPanther/app/src/main/java/com/example/virosample/ViroActivityAR.java">
+<a href="https://github.com/xracer007/ViroXamarin/tree/master/ARBlackPanther">
 <img src="https://github.com/viromedia/virocore/blob/master/ARBlackPanther/viro_black_panther_marker_demo.gif">
 </a>
+## One more thing
+
+If you like my project You can Donate to this project using Paypal [![Donate to this project using Paypal](https://camo.githubusercontent.com/11b2f47d7b4af17ef3a803f57c37de3ac82ac039/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70617970616c2d646f6e6174652d79656c6c6f772e737667)](https://www.paypal.me/aliparsa64)
+
+If you have any suggestions on making this lib better, write me, create issue or write some code and send pull request.
