@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ARHelloWorld</string>
+    <string name="action_settings">Settings</string>
+</resources>

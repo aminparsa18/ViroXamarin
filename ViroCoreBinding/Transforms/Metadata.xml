@@ -1,0 +1,31 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.viro.core']" name="managedName">ViroCore</attr>
+  <attr path="/api/package[@name='com.viro.core.internal']" name="managedName">ViroCore.Internal</attr>
+
+  <attr path="api/package[@name='com.viro.core']/class[@name='ViroViewARCore']" name="obfuscated">false</attr>
+  <attr path="api/package[@name='com.viro.core']/class[@name='ViroViewARCore']" name="visibility">public</attr>
+
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.LoadARImageDatabaseListener']/method[@name='onFailure']" name="argsType">LoadARImageDatabaseFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.CloudAnchorResolveListener']/method[@name='onFailure']" name="argsType">CloudAnchorResolveFailureEventArgs</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.CloudAnchorHostListener']/method[@name='onFailure']" name="argsType">CloudAnchorHostFailureEventArgs</attr>
+
+  <!--<attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.LoadARImageDatabaseListener']/method[@name='onSuccess']" name="argsType">LoadARImageDatabaseSuccessEventArgs</attr>-->
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.CloudAnchorResolveListener']/method[@name='onSuccess']" name="argsType">CloudAnchorResolveSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.CloudAnchorHostListener']/method[@name='onSuccess']" name="argsType">CloudAnchorHostSuccessEventArgs</attr>
+
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.VideoRecordingFinishListener']/method[@name='onSuccess']" name="argsType">VideoRecordingFinishSuccessEventArgs</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.ScreenshotFinishListener']/method[@name='onSuccess']" name="argsType">ScreenshotFinishSuccessEventArgs</attr>
+
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.VideoRecordingFinishListener']/method[@name='onError']" name="argsType">VideoRecordingFinishErrorEventArgs</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.ScreenshotFinishListener']/method[@name='onError']" name="argsType">ScreenshotFinishErrorEventArgs</attr>
+
+  <attr path="/api/package[@name='com.viro.core']/class[@name='NativeFrameListener']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.viro.core.internal']/interface[@name='NativeSoundDelegate']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.viro.core.internal']/interface[@name='BaseSound']" name="visibility">public</attr>
+  <!--must be fixed-->
+  <remove-node path="/api/package[@name='com.viro.core.internal']/interface[@name='BaseSound']/method[@name='setLoop']" />
+  <remove-node path="/api/package[@name='com.viro.core.internal']/interface[@name='BaseSound']/method[@name='setMuted']" />
+  <remove-node path="/api/package[@name='com.viro.core.internal']/interface[@name='BaseSound']/method[@name='setVolume']" />
+
+ 
+</metadata>
