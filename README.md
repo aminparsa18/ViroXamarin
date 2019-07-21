@@ -1,6 +1,10 @@
 ### ViroXamarin
 This is a xamarin binding for [ViroCore](https://github.com/viromedia/virocore) project.
 
+#  Installation
+
+Available on [Nuget](https://www.nuget.org/packages/ViroCoreBinding) 
+
 ViroCore
 =====================
 
