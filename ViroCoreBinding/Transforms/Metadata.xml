@@ -1,9 +1,23 @@
-﻿<metadata>
+<metadata>
   <attr path="/api/package[@name='com.viro.core']" name="managedName">ViroCore</attr>
   <attr path="/api/package[@name='com.viro.core.internal']" name="managedName">ViroCore.Internal</attr>
 
-  <attr path="api/package[@name='com.viro.core']/class[@name='ViroViewARCore']" name="obfuscated">false</attr>
-  <attr path="api/package[@name='com.viro.core']/class[@name='ViroViewARCore']" name="visibility">public</attr>
+  <!--<attr path="api/package[@name='com.viro.core']/class[@name='ViroViewARCore']" name="obfuscated">false</attr>-->
+  <!--<attr path="api/package[@name='com.viro.core']/class[@name='ViroViewARCore']" name="visibility">public</attr>-->
+
+  <!--ARScene-->
+  <attr path="/api/package[@name='com.viro.core']/class[@name='ARScene']/method[@name='setListener']" name="managedName">SetARSceneListener</attr>
+
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onTrackingUpdated']/parameter[@name='p0']" name="name">trackingState</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onTrackingUpdated']/parameter[@name='p1']" name="name">trackingStateReason</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onAmbientLightUpdate']/parameter[@name='p0']" name="name">lightIntensity</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onAmbientLightUpdate']/parameter[@name='p1']" name="name">lightColor</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onAnchorFound']/parameter[@name='p0']" name="name">arAnchor</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onAnchorFound']/parameter[@name='p1']" name="name">arNode</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onAnchorUpdated']/parameter[@name='p0']" name="name">arAnchor</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onAnchorUpdated']/parameter[@name='p1']" name="name">arNode</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onAnchorRemoved']/parameter[@name='p0']" name="name">arAnchor</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.Listener']/method[@name='onAnchorRemoved']/parameter[@name='p1']" name="name">arNode</attr>
 
   <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.LoadARImageDatabaseListener']/method[@name='onFailure']" name="argsType">LoadARImageDatabaseFailureEventArgs</attr>
   <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.CloudAnchorResolveListener']/method[@name='onFailure']" name="argsType">CloudAnchorResolveFailureEventArgs</attr>
@@ -13,11 +27,65 @@
   <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.CloudAnchorResolveListener']/method[@name='onSuccess']" name="argsType">CloudAnchorResolveSuccessEventArgs</attr>
   <attr path="/api/package[@name='com.viro.core']/interface[@name='ARScene.CloudAnchorHostListener']/method[@name='onSuccess']" name="argsType">CloudAnchorHostSuccessEventArgs</attr>
 
+  <!--ClickListener-->
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ClickListener']/method[@name='onClick']/parameter[@name='p0']" name="name">i</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ClickListener']/method[@name='onClick']/parameter[@name='p1']" name="name">node</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ClickListener']/method[@name='onClick']/parameter[@name='p2']" name="name">vector</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ClickListener']/method[@name='onClickState']/parameter[@name='p0']" name="name">i</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ClickListener']/method[@name='onClickState']/parameter[@name='p1']" name="name">node</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ClickListener']/method[@name='onClickState']/parameter[@name='p2']" name="name">clickState</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ClickListener']/method[@name='onClickState']/parameter[@name='p3']" name="name">vector</attr>
+
+  <!--ViroViewARCore-->
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroViewARCore.StartupListener']/method[@name='onFailure']/parameter[@name='p0']" name="name">error</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroViewARCore.StartupListener']/method[@name='onFailure']/parameter[@name='p1']" name="name">errorMessage</attr>
+  
+  <!--DragListener-->
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='DragListener']/method[@name='onDrag']/parameter[@name='p0']" name="name">i</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='DragListener']/method[@name='onDrag']/parameter[@name='p1']" name="name">node</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='DragListener']/method[@name='onDrag']/parameter[@name='p2']" name="name">vector</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='DragListener']/method[@name='onDrag']/parameter[@name='p3']" name="name">vector1</attr>
+ 
+  <!--ARHitTestListener-->
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ARHitTestListener']/method[@name='onHitTestFinished']/parameter[@name='p0']" name="name">arHitTestResults</attr>
+
+  <!--AsyncObject3DListener-->
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='AsyncObject3DListener']/method[@name='onObject3DLoaded']/parameter[@name='p0']" name="name">object</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='AsyncObject3DListener']/method[@name='onObject3DLoaded']/parameter[@name='p1']" name="name">type</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='AsyncObject3DListener']/method[@name='onObject3DFailed']/parameter[@name='p0']" name="name">error</attr>
+
+  <!--GestureRotateListener-->
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='GestureRotateListener']/method[@name='onRotate']/parameter[@name='p0']" name="name">i</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='GestureRotateListener']/method[@name='onRotate']/parameter[@name='p1']" name="name">node</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='GestureRotateListener']/method[@name='onRotate']/parameter[@name='p2']" name="name">rotation</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='GestureRotateListener']/method[@name='onRotate']/parameter[@name='p3']" name="name">rotateState</attr>
+
+  <!--GestureRotateListener-->
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='GesturePinchListener']/method[@name='onPinch']/parameter[@name='p0']" name="name">i</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='GesturePinchListener']/method[@name='onPinch']/parameter[@name='p1']" name="name">node</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='GesturePinchListener']/method[@name='onPinch']/parameter[@name='p2']" name="name">scale</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='GesturePinchListener']/method[@name='onPinch']/parameter[@name='p3']" name="name">pinchState</attr>
+  
+  <!--AnimationTransaction-->
+  <attr path="/api/package[@name='com.viro.core']/class[@name='AnimationTransaction']/method[@name='setListener']" name="managedName">SetAnimationTransactionFinishListener</attr>
+  
+  <!--Animation-->
+  <attr path="/api/package[@name='com.viro.core']/class[@name='Animation']/method[@name='setListener']" name="managedName">SetAnimationListener</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='Animation.Listener']/method[@name='onAnimationStart']/parameter[@name='p0']" name="name">animation</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='Animation.Listener']/method[@name='onAnimationFinish']/parameter[@name='p0']" name="name">animation</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='Animation.Listener']/method[@name='onAnimationFinish']/parameter[@name='p1']" name="name">canceled</attr>
+  <!--ViroMediaRecorder-->
   <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.VideoRecordingFinishListener']/method[@name='onSuccess']" name="argsType">VideoRecordingFinishSuccessEventArgs</attr>
   <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.ScreenshotFinishListener']/method[@name='onSuccess']" name="argsType">ScreenshotFinishSuccessEventArgs</attr>
-
   <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.VideoRecordingFinishListener']/method[@name='onError']" name="argsType">VideoRecordingFinishErrorEventArgs</attr>
   <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.ScreenshotFinishListener']/method[@name='onError']" name="argsType">ScreenshotFinishErrorEventArgs</attr>
+
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.ScreenshotFinishListener']/method[@name='onSuccess']/parameter[@name='p0']" name="name">bitmap</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.ScreenshotFinishListener']/method[@name='onSuccess']/parameter[@name='p1']" name="name">s</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.ScreenshotFinishListener']/method[@name='onError']/parameter[@name='p0']" name="name">error</attr>
+
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.VideoRecordingFinishListener']/method[@name='onSuccess']/parameter[@name='p0']" name="name">s</attr>
+  <attr path="/api/package[@name='com.viro.core']/interface[@name='ViroMediaRecorder.VideoRecordingFinishListener']/method[@name='onError']/parameter[@name='p0']" name="name">error</attr>
 
   <attr path="/api/package[@name='com.viro.core']/class[@name='NativeFrameListener']" name="visibility">public</attr>
   <attr path="/api/package[@name='com.viro.core.internal']/interface[@name='NativeSoundDelegate']" name="visibility">public</attr>
@@ -27,5 +95,5 @@
   <remove-node path="/api/package[@name='com.viro.core.internal']/interface[@name='BaseSound']/method[@name='setMuted']" />
   <remove-node path="/api/package[@name='com.viro.core.internal']/interface[@name='BaseSound']/method[@name='setVolume']" />
 
- 
+  <remove-node path="/api/package[@name='com.viro.core.internal']/class[@name='KeyValidator']"/>
 </metadata>
