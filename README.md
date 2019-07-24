@@ -37,7 +37,7 @@ Check out our [blog](https://blog.viromedia.com/) for tutorials, news, and updat
 <img src="https://raw.githubusercontent.com/viromedia/virocore/master/ARHelloWorldAndroid/ViroARPlanesDemoActivity.gif">
 </a>
 
-### [AR Placing Objectshttps://github.com/xracer007/ViroXamarin/tree/master/ARPlacingObjects)
+### [AR Placing Objects](https://github.com/xracer007/ViroXamarin/tree/master/ARPlacingObjects)
 
 <a href="https://github.com/xracer007/ViroXamarin/tree/master/ARPlacingObjects">
 <img src="https://raw.githubusercontent.com/viromedia/virocore/master/ARPlacingObjects/ViroARHitTestDemoActivity.gif">
